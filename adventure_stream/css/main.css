@@ -1,0 +1,202 @@
+body,html{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+box-sizing: border-box;
+overflow-x: hidden;}
+
+
+header{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+margin: auto;
+background-color: #fff;
+}
+
+.logo{
+  display: grid;
+  place-items: center;
+  justify-content: flex-start;
+padding:6px 10px;
+outline:none;
+font-size: 30PX;
+color: blue;
+letter-spacing: 4px;
+}
+
+.logo a{
+  text-decoration: none;
+}
+
+
+
+.contact{
+  padding: 6px 10px;
+}
+
+.contact-box{
+  font-size: 15px;
+text-align: right;
+line-height: 0;
+padding: 10px 0;
+}
+
+.tel-number{
+  font-size: 30px;
+text-decoration: none;
+font-weight: 600;
+float: right;
+}
+
+.navbar{
+  background-color: #6d1ffa;
+
+}
+
+
+.navlinks{
+  display: flex;
+  place-content: center;
+  margin: auto;
+  place-items: center;
+}
+
+.navlinks li{
+  list-style-type: none;
+padding: 1em;
+}
+
+.navlinks a{
+  text-decoration: none;
+font-size: 18px;
+color:#fff;
+letter-spacing: 1px;
+line-height: 2;
+}
+/*nav css stops here*/
+
+
+
+
+  /*footer css starts here*/
+
+
+
+footer {
+padding: 3px;
+background: radial-gradient(#722977, #a00c9b);
+text-align: center;
+}
+
+.flex-footer{
+display: flex;
+place-content: center;
+}
+
+.footer-tablebox{
+
+width: 500px;
+  border-right: solid 1px #fff;
+
+}
+.footer-headline{
+  color: #fff;
+  font-size: 24px;
+ font-weight: bold;
+}
+.footer-navlink{
+  padding: 0;
+}
+.footer-navlink li{
+  list-style-type: none;
+}
+.footer-navlink a{
+text-decoration: none;
+color: #fff;
+font-size: 18px;
+}
+
+.footer-seperator{
+    margin: 20px 0;
+}
+
+.footer-logo-box{
+cursor: pointer;
+}
+
+
+
+/*@media starts here*/
+
+@media(max-width:280px){
+#logofold{
+transform: translateX(-26px);
+}
+
+#telnumber{
+transform: translateX(-26px);
+}
+
+.contact-box{
+transform: translateX(-26px);
+}
+}
+
+.tel-number{
+color: #6d1ffa;
+}
+
+@media(max-width:768px){
+.navbar{
+display: grid;
+}
+.navlinks{
+flex-direction: column;
+align-items: center;
+}
+}
+
+@media(max-width:699px){
+header{
+place-items: center;
+}
+
+.contact{
+display: grid;
+background-color: #125be1;
+color: #fff;
+width: 100%;
+}
+
+.contact-box{
+display: grid;
+place-items: center;
+color: #fff;
+}
+
+#telnumber{
+color: #fff;
+margin: auto;}
+}
+/*header nav css stops here*/
+@media(max-width:768px){
+  .logo img{
+transform: translateY(3px);  }
+    .footer-headline{
+    font-size: 14px;
+    }
+
+    .footer-navlink a{
+        font-size: small;
+    }
+}
+    
+@media(max-width:375px){
+.footer-headline{
+font-size: small;
+}
+.footer-navlink a{
+    font-size: small;
+}
+}
+    
+

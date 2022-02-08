@@ -1,0 +1,263 @@
+main{
+content-visibility: auto;
+}
+
+.travelhero{
+background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(../img/cod-news.png);
+background-size: cover;
+background-position:  center;
+display: grid;
+height: 600px;
+place-items: center;
+}
+.travel-title{
+color: #fff;
+font-size: 40px;
+margin-bottom: 1rem;
+}
+
+.travel-hero-btn{
+outline: none;
+border: none;
+border-radius: 5px;
+color: #fff;
+cursor: pointer;
+background-color: #3475d7;
+text-transform: uppercase;
+padding: 1rem;
+font-size: 17px;
+width: 50%;
+}
+
+.airline-news{
+    width: 100%;
+    border-bottom: solid 1px #2b0fca;
+}
+
+.airline-news h1{
+    color: #2b0fca;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.destination-news{
+    width: 100%;
+    border-bottom: solid 1px #2b0fca;
+}
+
+.destination-news h1{
+    color: #2b0fca;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.travel-news-card{
+width: 350px;
+border-radius: 6px;
+padding: 7px 10px;
+margin: 0.3rem 0;
+}
+
+.travelnews-card-img{
+background: url(../img/cov-pl.jpg.webp);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 262px;
+}
+.travelnews-card-img1{
+background: url(../img/tou-ap.jpg.webp);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 262px;
+}
+.travelnews-card-img2{
+background: url(../img/afgh.png);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 262px;
+}
+.travelnews-card-img3{
+background: url(../img/disa.png);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 262px;
+}
+.travelnews-card-img4{
+background: url(../img/alas.png);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 262px;
+}
+.travelnews-card-img5{
+background: url(../img/freai.jpeg);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 262px;
+}
+.travelnews-card-img6{
+background: url(../img/its.jpeg);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 262px;
+}
+.travelnews-card-img7{
+background: url(../img/rya.jpeg);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 262px;
+}
+        
+.travelnews-card-img8{
+background: url(../img/fed.jpeg);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 262px;
+}
+
+.travelnews-card-img9{
+background: url(../img/caltr.jpeg);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 262px;
+}
+
+.travelnews-card-img10{
+background: url(../img/ufex.jpeg);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 262px;
+}
+
+.travelnews-card-img11{
+background: url(../img/biinr.jpeg);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 262px;
+}
+
+.travelnews-card-img12{
+background: url(../img/napc.jpeg);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 262px;
+}
+.travelnews-card-img13{
+background: url(../img/conn.jpeg);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 262px;
+}
+.travelnews-card-img14{
+background: url(../img/ukgr.jpeg);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 262px;
+}
+.travelnews-card-img15{
+background: url(../img/railw.jpeg);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 262px;
+}
+        
+.travelnews-card-title{
+padding: 0.5rem;
+font-size: 10px;
+text-align: center;
+color: #2b0fca;
+letter-spacing: 2px;
+}
+.travelnews-card-content{
+padding: 0.5rem;
+line-height: 1.5rem;
+}
+
+            
+            
+            
+.travelnews-card-travel-btn{
+outline: none;
+border: none;
+border-radius: 5px;
+color: #fff;
+cursor: pointer;
+transition: 0.3s;
+background-color: #3460d7;
+margin: auto;
+display: grid;
+padding: 0.7rem;
+font-size: 17px;
+width: 100px;
+}
+
+.travelnews-card-travel-btn:hover{
+transform:scale(1.1);
+background-color: #2b0fca;
+}
+        
+    
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*@media starts here*/
+    
+    @media(max-width:375px){
+    .card{
+    width:325px;
+    }
+    }

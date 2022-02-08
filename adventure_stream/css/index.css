@@ -1,0 +1,400 @@
+.hero{
+background:linear-gradient(rgb(65 59 59 / 50%), rgb(0 0 0 / 0%)),
+url(../img/home-bg.jpeg);
+background-size: cover;
+background-position:  center;
+display: grid;
+height: 900px;
+border-bottom: solid 1px #fff;
+}
+
+.search-box{
+margin: auto;
+}
+
+#he-h1{
+color: #fff;
+text-align: center;
+text-transform: none;
+font-weight: bold;
+}
+
+form{
+display: flex;
+max-width: 55rem;
+place-content: center;
+margin: auto;   
+}
+
+form input{
+padding: 20px 2%;
+width: 100%;
+letter-spacing: 2px;
+line-height: 1.3rem;
+color: #000;
+outline:none ;
+}
+
+.form-btn{
+width: 10rem;
+background-color: #6d1ffa;
+color: #fff;
+outline: none;
+border-width: 0;
+cursor: pointer;
+}
+
+.plan-box{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+place-items: center;
+border-bottom: solid 1px #fff;
+}
+
+.left-plan{
+background-color: #2e43d8;  
+color: #fff;
+border-right: solid  1px #fff;
+height: 250px;
+
+}
+
+.right-plan{
+background-color: #2e43d8;  
+color: #fff;
+height: 250px;
+}
+
+.tropic-hero{
+background-image: url(../img/hg.bg.jpg);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+display: grid;
+place-items: center;
+height: 700px;
+margin-bottom: 1rem;
+}
+
+.safari-hero{
+background-image: url(../img/desert--hero.jpg);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+display: grid;
+place-items: center;
+height: 700px;
+margin-bottom: 1rem;
+}
+
+.grid-container{
+grid-template-columns: repeat(auto-fit, minmax(388px, 1fr));
+display: grid;
+gap: 1rem;
+place-items: center;
+margin-bottom: 1rem;
+}
+    
+
+
+.card{
+width: 388px;
+
+padding: 7px 10px;
+margin: 0.3rem 0;
+}
+
+.safari-card{
+width: 388px;
+
+padding: 7px 10px;
+margin: 0.3rem 0;  
+}
+
+
+
+
+.card-title{
+padding: 0.5rem;
+font-size: 10px;
+text-align: center;
+}
+
+.card-date{
+padding: 0.5rem;
+text-align: center;
+border-right: solid 1px;
+}
+
+.date-title{
+    display: flex;
+    place-content: center;
+    place-items: center;
+    margin: 1rem 0;
+}
+
+/*tropical card img starts here*/
+
+.card-img{
+background: url(../img/tropic-hero.jpg);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 284px;
+}
+
+.card-img1{
+background: url(../img/beach-bg.jpg);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 284px;
+}
+
+.card-img2{
+background: url(../img/sea-bg.jpg);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 284px;
+}
+
+.card-img3{
+background: url(../img/bg-im.jpg);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 284px;
+}
+
+.card-img4{
+background: url(../img/bhg-bg.jpg);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 284px;
+}
+
+.card-img5{
+background: url(../img/hg.bg.jpg);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 284px;
+}
+
+.card-img6{
+background: url(../img/sb-bg.jpg);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 284px;
+}
+
+.card-img6{
+background: url(../img/tropics-pp.jpg);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 284px;
+}
+
+.card-img7{
+background: url(../img/tropics-h.jpg);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 284px;
+}
+/*tropics card img stops here*/
+
+/*safari card img starts here*/
+.safari-card-img{
+background: url(../img/lion-bg.jpg);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 284px;
+}
+.safari-card-img1{
+background: url(../img/ape-bg.jpg);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 284px;
+}
+
+.safari-card-img2{
+background: url(../img/l-bg.jpg);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 284px;
+}
+
+.safari-card-img3{
+background: url(../img/rhino-bg.jpg);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 284px;
+}
+.safari-card-img4{
+background: url(../img/zebra-bg.jpg);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 284px;
+}
+
+.safari-card-img5{
+background: url(../img/giraffe-bg.jpg);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 284px;
+}
+
+.safari-card-img6{
+background: url(../img/fox-bg.jpg);
+background-size: cover;
+background-position: center center;
+background-repeat:space no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 284px;
+}
+.safari-card-img7{
+background: url(../img/el-bg.jpg);
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+width: 100%;
+border-radius: 7px;
+height: 284px;
+}
+/*safari card img stops here*/
+
+
+.card-content{
+padding: 0.5rem;
+line-height: 1.5rem;
+}
+.card-subtitle{
+padding: 0.5rem;
+text-align: center;
+color: #767676;
+}
+
+
+
+.card-travel-btn{
+outline: none;
+border: none;
+border-radius: 5px;
+color: #fff;
+cursor: pointer;
+transition: 0.3s;
+background-color: #3460d7;
+margin: auto;
+display: grid;
+padding: 0.7rem;
+font-size: 17px;
+width: 100px;
+}
+
+.card-travel-btn:hover{
+transform:scale(1.1);
+background-color: #2b0fca;
+}
+    
+
+  
+
+
+
+
+
+
+
+
+
+/*@media starts here*/
+
+@media(max-width:375px){
+.card{
+width:325px;
+}
+}
+
+
+@media(max-width:768px){
+
+
+
+    
+.left-plan{
+display: grid;
+place-items: center;
+margin-bottom: 1px;
+border-right: none;
+text-align: center;
+}
+    
+.left-plan p {
+font-size: small;
+text-align: center;}
+    
+    
+    
+.right-plan{
+display: grid;
+place-items: center;
+text-align: center;
+}
+    
+.right-plan p{
+font-size: small;
+text-align: center;
+}
+}
+    
+@media(max-width:360px){
+.search-box{
+width: 100%;
+}
+
+.search-box input{
+font-size: 2vh;
+}
+}
